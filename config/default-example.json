@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodburi will go here",
+    "port" : 5002,
+    "jwtSecret": "jwt secret will go here"
+  }
