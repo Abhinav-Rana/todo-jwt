@@ -1,0 +1,25 @@
+{
+  "name": "todo-server-jwt",
+  "version": "1.0.0",
+  "description": "Todo server with JWT using MongoDB, Node.js, and Express web framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Abhinav",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "latest",
+    "config": "latest",
+    "cors": "latest",
+    "express": "4.17.2",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
