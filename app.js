@@ -15,6 +15,11 @@ const app = express();
 app.use(express.json());
 app.use(cors())
 
+app.use('/todo', require('./routes/todo'))
+app.use('/auth', require('./routes/auth'))
+app.use('/user', require('./routes/user'))
+app.use('/', (req,res)=> {res.send('Try /todo')})
+
 // Connect to data store
 mongoose
   .connect(dbURI, {
